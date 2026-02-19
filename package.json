@@ -3,7 +3,7 @@
   "version": "0.4.10",
   "private": true,
   "description": "A third party music player for Netease Music",
-  "author": "imikufans@outlook.com>",
+  "author": "qier222<qier222@outlook.com>",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
@@ -20,11 +20,11 @@
     "postuninstall": "electron-builder install-app-deps",
     "prettier": "npx prettier --write ./src",
     "netease_api:run": "npx @neteaseapireborn/api"
-  {
+  },
+  "main": "background.js",
   "engines": {
     "node": "24.x"
-  }
-}
+  },
   "dependencies": {
     "@neteaseapireborn/api": "^4.29.7",
     "@unblockneteasemusic/rust-napi": "^0.4.0",
